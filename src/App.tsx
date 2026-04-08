@@ -143,7 +143,7 @@ const SkillCard = ({ category, items, icon: Icon, autoFlipDelay = 0 }: { categor
           <div className="absolute inset-0 backface-hidden">
             <div 
               className="w-full h-full border border-white/10 rounded-3xl overflow-hidden group-hover:border-orange-500/50 transition-colors shadow-2xl bg-cover bg-center bg-no-repeat"
-              style={{ backgroundImage: "url('src/assets/card-bg.jpg')" }}
+              style={{ backgroundImage: "url('./assets/card-bg.jpg')" }}
             >
               {/* Subtle Sheen Effect */}
               <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/5 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -225,28 +225,28 @@ export default function App() {
       tech: "Python, OpenCV, NumPy",
       desc: "Interactive digital art tool capturing hand gestures through camera to translate physical movements into digital artwork.",
       link: "https://github.com/YashPise/Virtual-Drawing-Board-",
-      video: "src/assets/project1.mp4" 
+      video: "./assets/project1.mp4" 
     },
     {
       title: "Object Detection System",
       tech: "Python, OpenCV, YOLO",
       desc: "Real-time object detection system utilizing YOLO model for enhanced safety in automotive applications.",
       link: "https://github.com/YashPise/Object-Detection-System",
-      video: "src/assets/project2.mp4"
+      video: "./assets/project2.mp4"
     },
     {
       title: "Movie Recommendation System",
       tech: "NLP, Streamlit, EDA, Python",
       desc: "ML-based engine suggesting movies using collaborative and content-based filtering methods.",
       link: "https://github.com/YashPise/Movie-Recommendation-System",
-      video: "src/assets/project3.mp4"
+      video: "./assets/project3.mp4"
     },
     {
       title: "PowerBI E-Commerce Dashboard",
       tech: "PowerBI, SQL, Excel",
       desc: "Interactive visualization of sales data, customer behavior, and product performance metrics.",
       link: "https://github.com/YashPise/PowerBI-Project-on-E-commerce-Sales",
-      video: "src/assets/project4.mp4"
+      video: "./assets/project4.mp4"
     }
   ];
 
@@ -288,7 +288,7 @@ export default function App() {
           playsInline
           className="w-full h-full object-cover opacity-82"
         >
-          <source src="src/assets/background-video.mp4" type="video/mp4" />
+          <source src="./assets/background-video.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black" />
       </div>
